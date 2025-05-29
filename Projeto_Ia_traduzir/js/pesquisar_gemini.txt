@@ -5,7 +5,7 @@ botao_pesquisar.addEventListener("click", async function() {
     const text = document.getElementById("text-pergunta");
 
     //Variáveis com a URL e a chave de acesso da API
-    const key = "AIzaSyCVrpSLkKyBilmPA810j7OmfLSUjH6uccs";
+    const key = "";
     const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + key;
     
     const dadosBody = {
