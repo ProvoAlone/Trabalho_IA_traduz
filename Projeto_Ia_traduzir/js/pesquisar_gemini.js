@@ -6,7 +6,7 @@ botao_pesquisar.addEventListener("click", async function() {  // Associa o event
 
     const text = document.getElementById("text-pergunta");
     /*console.log(text.value);*/
-    const key = "AIzaSyAaUkzhaEuhe3ZPkWpVNWLIbLm_uatCLRs"; // já é a minha 
+    const key = ""; // já é a minha 
     const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + key; //Monta a url para fazer requisição para API do gemini com a chave
     // O gemini pede que a requisição seja .json e assim mesmo (não questionar)
     const dadosBody = {
