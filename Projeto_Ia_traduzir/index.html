@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - IA</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/pesquisar_gemini.js" defer type="module"></script>
+    <script src="js/traduzir.js" defer type="module"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Special+Gothic+Condensed+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteudo">
+            <div id="logo">
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>Anhanguera GPT</li>
+                    <li>Tradutor</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo" id="caixa-pergunta">
+            <div id="logo-ia"></div>
+            <div id="pergunta-ia">
+                <form action="">
+                    <textarea name="" id="text-pergunta" cols="90" rows="15"></textarea>
+                    <input type="button" value="Pesquisar" id="btn-pesquisar">
+                    <input type="button" value="Limpar" id="btn-limpar">
+                </form>
+            </div>
+        </div>
+        <div class="conteudo" id="caixa-resposta">
+            <form>
+                <textarea name="" id="text-resposta" cols="100" rows="15"></textarea>
+                <input type="button" value="Traduzir" id="btn-traduz">
+                <input type="button" value="Limpar" id="btn-limpar-resp">
+                <input type="button" value="Reverter" id="btn-volta">
+                
+            </form>
+
+        </div>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
